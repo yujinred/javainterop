@@ -9,6 +9,7 @@ fun main(args: Array<String>) {
     functionNamesThatAreKotlinKeywords(java)
 
     playingWithPlatformTypes(java)
+
 }
 
 fun playingWithGetterAndSetter(java: Java) {

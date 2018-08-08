@@ -1,6 +1,5 @@
 package CallingJavaFromKotlin;
 
-
 public class Java {
 
     private int variable;
