@@ -2,11 +2,13 @@ package CallingJavaFromKotlin
 
 fun main(args: Array<String>) {
 
-    val java: Java = Java()
+    val java = Java()
 
     playingWithGetterAndSetter(java)
 
     functionNamesThatAreKotlinKeywords(java)
+
+    playingWithPlatformTypes(java)
 }
 
 fun playingWithGetterAndSetter(java: Java) {
@@ -19,6 +21,7 @@ fun functionNamesThatAreKotlinKeywords(java: Java) {
     java.`is`()
 }
 
-fun playingWithGenerics(java: Java) {
-
+fun playingWithPlatformTypes(java: Java) {
+//    val nullableJava: String = java.nullable
+//    print(nullableJava)
 }
